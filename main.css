@@ -1,0 +1,99 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*====HELPER COLORS====*/
+.profile-card {
+  background-color: rgba(194, 168, 44, 0.5);
+}
+
+.head {
+  background-color: rgba(194, 107, 215, 0.5);
+}
+
+.content {
+  background-color: rgba(105, 191, 94, 0.5);
+}
+
+/*====LAYOUT STYLES====*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: url(assets/1105354-dark-wolf-wallpaper-3000x2000-picture.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  width: 550px;
+  height: 70%;
+}
+
+.content {
+  width: 275px;
+  height: 100%;
+  float: right;
+}
+
+.head {
+  width: 275px;
+  height: 100%;
+  float: left;
+}
+
+img {
+  width: 120px;
+  height: auto;
+  margin-left: 70px;
+}
