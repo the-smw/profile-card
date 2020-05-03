@@ -86,7 +86,7 @@ body {
 
 .profile-card {
   width: 550px;
-  height: 60%;
+  height: auto;
   margin-left: 100px;
 }
 
@@ -115,8 +115,8 @@ img {
 }
 
 footer {
-  text-align: left;
-  margin-top: 550px;
+    position: fixed;
+    bottom: 0;
 }
 
 .button {
