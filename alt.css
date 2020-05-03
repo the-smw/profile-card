@@ -79,6 +79,23 @@ body {
   font-family: 'Muli', 'Arial', sans-serif;
 }
 
+header {
+  position: relative;
+}
+
+.button {
+  display: inline-block;
+  font-size: 20px;
+  border: 3px solid rgba(100, 231, 189, 0.9);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  transform: scale(1.2);
+  color: rgba(68, 70, 70, 0.9); 
+}
+
 .info-card {
   width: 1000px;
   height: 700px;
