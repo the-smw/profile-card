@@ -124,10 +124,11 @@ h1 {
 }
 
 footer {
-  text-align: left;
-  margin-top: 650px;
-  margin-left: -80px;
+  position: fixed;
+  bottom: 0;
+  text-align: right;
 }
+
 
 ul {
   list-style-type: none;
