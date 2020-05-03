@@ -213,3 +213,16 @@ a {
   font-weight: 600;
   text-decoration: none;
 }
+
+.lang {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#hu:hover {
+  color: rgba(215, 81, 32, 0.9);
+}
+
+#en:hover {
+  color: rgba(215, 81, 32, 0.9);
+}
